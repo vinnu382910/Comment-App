@@ -1,0 +1,102 @@
+/* Write your CSS here */
+.main-cont {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 100px;
+}
+
+.card-cont {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.desc-cont {
+  display: flex;
+  flex-direction: column;
+  margin-right: 400px;
+}
+
+.main-heading {
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.para {
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.comment-input {
+  font-family: Roboto;
+  font-weight: bold;
+  color: #1e293b;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  height: 32px;
+  border-color: #cbd2d9;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.name-input {
+  height: 180px;
+}
+
+.comment-button {
+  height: 32px;
+  width: 140px;
+  color: #fff;
+  background-color: #0ea5e9;
+  border-radius: 5px;
+  border-color: transparent;
+  font-family: Roboto;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.comments-image {
+  width: 500px;
+}
+
+.break-line {
+  color: #334155;
+  font-size: 2px;
+  width: 100%;
+  margin-top: 30px;
+  background-color: #334155;
+  height: 2px;
+}
+
+.count-cont {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.comments-count-cont {
+  text-align: center;
+  background-color: #0284c7;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  height: 32px;
+  width: 25px;
+  border-radius: 4px;
+  padding-top: 5px;
+}
+
+.comments-heading {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 9px;
+  color: #94a3b8;
+}
+
+.list-cont {
+  list-style-type: none;
+}
